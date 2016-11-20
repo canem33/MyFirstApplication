@@ -19,7 +19,7 @@ public class SecondActivity extends AppCompatActivity {
         Intent intent = getIntent();
         Bundle extras = intent.getExtras();
         if(extras!=null){
-            texte.setText(extras.getString("NOM"));
+            texte.setText(extras.getString("NOMBRE"));
 
         }
 
